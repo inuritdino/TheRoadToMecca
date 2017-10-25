@@ -1,4 +1,7 @@
 /*GENERAL*/
+body {
+    font-family: "EB Garamond", Garamond, Georgia, Times, "Times New Roman", serif;
+}
 em {
     font-style: italic;
 }
@@ -85,6 +88,15 @@ div#nav-bar ul#nav1 li a{
 div#nav-bar ul#nav1 li a:hover{
 	color: #fff;
 }
+div#nav-bar ul#dropdown li a {
+	color: #181818;
+	font-family: "EB Garamond", Garamond, Georgia, Times, "Times New Roman", serif;
+	/* font-family: "Adobe Garamond Pro", "Garamond Premier Pro", Garamond, Georgia, Times, "Times New Roman", serif; */
+	font-size: 18px;
+}
+div#nav-bar ul#dropdown li a:hover{
+	color: #fff;
+}
 
 div#nav-bar div#nav2 p.rss a{
 	color: #181818;	
@@ -99,6 +111,11 @@ div#nav-bar div#nav2 p.rss a:hover{
 form#search-form input.search-field, form#search-form input.search-button{
 	font-family: "Adobe Garamond Pro", "Garamond Premier Pro", Garamond, Georgia, Times, "Times New Roman", serif;
 	font-size: 14px;
+}
+
+.dropbtn {
+    font-family: "EB Garamond", Garamond, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
 }
 
 /*CONTENT*/
