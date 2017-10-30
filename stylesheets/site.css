@@ -131,7 +131,8 @@ div#content-1 div.featured img.featured-img{
 	margin: 0 10px 0 0;
 }
 div#content-1 div.featured p{
-	margin-top: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 div#content-1 div.featured ul{
     list-style: circle inside;
