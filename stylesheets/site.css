@@ -17,6 +17,12 @@ hr {
 div#header {
 	background: url(../images/header-bg.jpg) repeat-x;
 }
+#print {
+    font-size: 85%;
+    cursor: pointer;
+    color: #757cff;
+    float: right;
+}
 div#print-image {
     display: none;
 }
@@ -298,6 +304,9 @@ div#footer-content {
     hr {
 	height: 1px;
     }
+    #print {
+	display: none;
+    }
 }
 
 @media print {
@@ -342,6 +351,9 @@ div#footer-content {
     	display: none;
     }
     div#footer {
+	display: none;
+    }
+    #print {
 	display: none;
     }
 }
