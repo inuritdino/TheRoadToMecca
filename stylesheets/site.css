@@ -7,10 +7,29 @@ body {
 .clear {
 	clear: both;
 }
-
+hr {
+    border: none;
+    height: 2px;
+    color: #c5bca5;
+    background-color: #c5bca5;
+}
 /*HEADER*/
 div#header {
 	background: url(../images/header-bg.jpg) repeat-x;
+}
+div#print-image {
+    display: none;
+}
+div#print-online-links {
+    display: none;
+}
+div#print-online-links ul > li {
+    display: inline;
+    margin-left: 15px;
+}
+div#print-online-links ul {
+    display: inline;
+    list-style: none;
 }
 div#logo {
 	width: 960px;
@@ -275,5 +294,54 @@ div#footer-content {
     div#nav-bar {
 	border: none;
 	height: 50px;
+    }
+    hr {
+	height: 1px;
+    }
+}
+
+@media print {
+    body {
+	overflow: visible;
+	color: black;
+    }
+    div.featured p {
+	font-size: 20px;
+	line-height: 24px;
+    }
+    div#print-image {
+	display: block;
+    }
+    div#nav-bar {
+	display: none;
+    }
+    div#sidebar {
+	display: none;
+    }
+    div#content-1 {
+	width: 100%;
+    }
+    hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	color: black;
+	background: transparent;
+	border: none;
+	border-top: solid 1px #000;
+    }
+    div#print-online-links {
+	display: block;
+    }
+    a {
+	color: black;
+	text-decoration: underline;
+    }
+    a[href^="#"]:after {
+    	display: none;
+    }
+    div#footer {
+	display: none;
     }
 }
