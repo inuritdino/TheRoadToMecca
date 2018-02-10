@@ -113,7 +113,7 @@ form#search-form input.search-field, form#search-form input.search-button{
 	font-size: 14px;
 }
 
-.dropbtn {
+.dropbtn,.dropbtn2 {
     font-family: "EB Garamond", Garamond, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
 }

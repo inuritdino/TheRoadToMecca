@@ -75,7 +75,10 @@ div#nav-bar ul#dropdown li a {
 div#nav-bar ul.dropdown-show {
     display: block;
 }
-.dropbtn {
+div#main-content ul.category-show {
+    display: block;
+}
+.dropbtn,.dropbtn2 {
     display: none;
     background: #d3caa3;
     border: none;
@@ -83,6 +86,7 @@ div#nav-bar ul.dropdown-show {
     text-align: center;
     cursor: pointer;
 }
+
 div#nav-bar ul#nav1{
 	float: left;
 }
@@ -295,8 +299,17 @@ div#footer-content {
 	display: none;
     }
     .dropbtn {
-	display: block;
+	display: inline;
+	float: left;
     }
+    /* .dropbtn2 { */
+    /* 	display: inline; */
+    /* 	clear: right; */
+    /* 	float: right; */
+    /* } */
+    /* div#sidebar{ */
+    /* 	display: none; */
+    /* } */
     div#nav-bar {
 	border: none;
 	height: 50px;
