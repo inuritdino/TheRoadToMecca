@@ -5,7 +5,7 @@ function show_on_click() {
     document.getElementById("dropdown").classList.toggle("dropdown-show");
 }
 function show_on_click2() {
-    document.getElementById("dropdown-2").classList.toggle("category-show");
+    document.getElementById("sidebar").classList.toggle("category-show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -23,7 +23,7 @@ window.onclick = function(event) {
   }
   if (!event.target.matches('.dropbtn2')) {
 
-    var dropdowns = document.getElementsByClassName("category");
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];

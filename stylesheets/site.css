@@ -75,9 +75,7 @@ div#nav-bar ul#dropdown li a {
 div#nav-bar ul.dropdown-show {
     display: block;
 }
-div#main-content ul.category-show {
-    display: block;
-}
+
 .dropbtn,.dropbtn2 {
     display: none;
     background: #d3caa3;
@@ -302,14 +300,14 @@ div#footer-content {
 	display: inline;
 	float: left;
     }
-    /* .dropbtn2 { */
-    /* 	display: inline; */
-    /* 	clear: right; */
-    /* 	float: right; */
-    /* } */
-    /* div#sidebar{ */
-    /* 	display: none; */
-    /* } */
+    .dropbtn2 {
+    	display: inline;
+    	clear: right;
+    	float: right;
+    }
+    div#sidebar {
+    	display: none;
+    }
     div#nav-bar {
 	border: none;
 	height: 50px;
@@ -369,4 +367,7 @@ div#footer-content {
     #print {
 	display: none;
     }
+}
+div#main-content div.category-show {
+    display: block;
 }
