@@ -371,3 +371,10 @@ div#footer-content {
 div#main-content div.category-show {
     display: block;
 }
+
+a#top-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #757cff;
+}
