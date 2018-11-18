@@ -324,10 +324,12 @@ div#footer-content {
     body {
 	overflow: visible;
 	color: black;
+	background: white;
+	font-family: Georgia, 'Times New Roman', serif;
     }
     div.featured p {
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 20pt;
+	line-height: 30pt;
     }
     div#print-image {
 	display: block;
