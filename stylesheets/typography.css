@@ -5,6 +5,9 @@ body {
 em {
     font-style: italic;
 }
+strong {
+    font-weight: bold;
+}
 ol,ul > li{
     font-family: "EB Garamond", Garamond, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
